@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 
 export default function Navbar() {
     const location = useLocation();
-    const [activePage, setActivePage] = useState(location.pathname);
+    const [activePage] = useState(location.pathname);
 
     return (
         <div className='navbar'>

@@ -27,11 +27,11 @@ export default function Footer() {
                     <div className="footer-blok__section">
                         <h2 className='footer-blok__section__h2-1'>Partners</h2>
                         <br />
-                        <a className='footer-blok__section-a' href="">Zarhal Group</a>
+                        <a className='footer-blok__section-a' href="https://akbarsoft.uz">Zarhal Group</a>
                         <div className='footer-blok__section-line'></div>
-                        <a className='footer-blok__section-a' href="">Langheinrich</a>
+                        <a className='footer-blok__section-a' href="https://akbarsoft.uz">Langheinrich</a>
                         <div className='footer-blok__section-line'></div>
-                        <a className='footer-blok__section-a' href="">Curt Bauer</a>
+                        <a className='footer-blok__section-a' href="https://akbarsoft.uz">Curt Bauer</a>
                         <div className='footer-blok__section-line'></div>
                     </div>
                     <div className="footer-blok__section">
