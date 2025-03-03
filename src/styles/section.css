@@ -1,0 +1,92 @@
+.section {
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.section-blok {
+    position: absolute;
+    top: -130px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.section-blok__section {
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgb(43 52 59 / 10%);
+    background-color: #fff;
+}
+
+.section-blok__section__icon {
+    color: var(--red-color);
+    width: 15px;
+    transition: .5s;
+}
+
+.section-blok__section img {
+    width: 35px;
+}
+
+.section-blok__section h2 {
+    font-weight: 500;
+}
+
+.section-blok__section p {
+    font-family: var(--subtitle-font);
+    color: var(--bg-color);
+    max-width: 350px;
+}
+
+.section-blok__section a {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    font-size: 90%;
+    font-weight: 600;
+    color: var(--title-color);
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.section-blok__section a:hover .section-blok__section__icon {
+    transform: translateX(10px);
+}
+
+.section-blok__section a:hover {
+    color: var(--red-color);
+}
+
+.section__main {
+    margin: 0 100px;
+    position: relative;
+}
+
+@media (max-width: 1300px) {
+    .section__main {
+        margin: 0 20px;
+    }
+    .section-blok__section {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-blok {
+        flex-direction: column;
+        width: 100%;
+    }
+    .section-blok__section h2 {
+        font-size: 120%;
+    }
+    .section-blok__section p {
+        font-size: 90%;
+    }
+}

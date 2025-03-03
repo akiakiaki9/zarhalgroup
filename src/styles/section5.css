@@ -1,0 +1,143 @@
+.section5-hr {
+    height: 1px;
+    background-color: #ffffff2b;
+    border-radius: 5px;
+}
+
+.section5-blok {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section5-blok__section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--title-color);
+    color: #fff;
+}
+
+.section5-blok__section-1 {
+    padding: 50px 50px 0 100px;
+    width: 50%;
+}
+
+.section5-blok__section-2 {
+    width: 50%;
+    background-color: var(--title-color);
+}
+
+.section5-blok__section-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.section5-blok__section-p-1 {
+    
+}
+
+.section5-blok__section-p-2 {
+    font-family: var(--subtitle-font);
+    color: var(--white-text-color);
+    max-width: 550px;
+    margin-bottom: 30px;
+    letter-spacing: 0.2px;
+    line-height: 1.8;
+    font-size: 95%;
+}
+
+.section5-blok__section h1 {
+    font-weight: 400;
+    max-width: 500px;
+}
+
+.section5-blok__section h1 span {
+    font-weight: 600;
+}
+
+.section5-blok__section__container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 50px;
+    padding: 30px 0 50px 0;
+}
+
+.section5-blok__section__container-part {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+
+.section5-blok__section__container-part img {
+    width: 45px;
+}
+
+.section5-blok__section__container-part div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section5-blok__section__container-part__p-1 {
+    font-weight: 600;
+    font-size: 200%;
+}
+
+.section5-blok__section__container-part__p-2 {
+    color: var(--text-white-color);
+}
+
+@media (max-width: 1300px) {
+    .section5-blok__section-1 {
+        padding: 50px 20px;
+    }
+}
+
+@media (max-width: 1185px) {
+    .section5-blok {
+        flex-direction: column;
+    }
+    .section5-blok__section-1 {
+        width: 100%;
+    }
+    .section5-blok__section-2 {
+        width: 100%;
+    }
+    .section5-blok__section-img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .section5-blok__section h1 {
+        font-size: 160%;
+    }
+    .section5-blok__section-p-1 {
+        font-size: 80%;
+    }
+    .section5-blok__section-p-2 {
+        font-size: 85%;
+        margin-bottom: 20px;
+    }
+    .section5-blok__section__container-part__p-1 {
+        font-size: 120%;
+    }
+    .section5-blok__section__container-part__p-2 {
+        font-size: 75%;
+    }
+    .section5-blok__section__container {
+        gap: 30px;
+        padding: 30px 0 0 0;
+    }
+    .section5-blok__section__container-part {
+        gap: 10px;
+    }
+    .section5-blok__section__container-part img {
+        width: 30px;
+    }
+    .section5-blok__section__container-part div {
+        gap: 5px;
+    }
+}

@@ -1,0 +1,86 @@
+.shapka {
+    background-color: var(--title-color);
+    color: #fff;
+    font-family: var(--title-font);
+}
+
+.shapka-blok {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.shapka-blok__section a img {
+    width: 100px;
+}
+
+.shapka-blok__section {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.shapka-blok__section-part {
+    padding: 0 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+
+.shapka-blok__section-part__drop {
+    height: 50px;
+    width: 1px;
+    background-color: #344049;
+    margin-left: 20px;
+}
+
+.shapka-blok__section-part img {
+    width: 30px;
+}
+
+.shapka-blok__section-part div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.shapka-blok__section-part__p-1 {
+    font-size: 90%;
+    color: var(--white-text-color);
+}
+
+.shapka-blok__section-part__p-2 {
+    font-weight: 600;
+}
+
+@media (max-width: 1010px) {
+    .shapka-blok__section a img {
+        width: 80px;
+    }
+    .shapka-blok__section-part img {
+        width: 20px;
+    }
+    
+    .shapka-blok__section-part__p-1 {
+        font-size: 70%;
+        color: var(--white-text-color);
+    }
+    
+    .shapka-blok__section-part__p-2 {
+        font-weight: 600;
+        font-size: 80%;
+    }
+    .shapka-blok__section-part__drop {
+        height: 40px;
+        width: 1px;
+        background-color: #344049;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .shapka-blok__section-part__invisible {
+        display: none;
+    }
+}

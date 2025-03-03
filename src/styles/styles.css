@@ -1,0 +1,87 @@
+/* font-family: 'Rubik', Arial, Helvetica, sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --title-font: 'Rubik', Arial, Helvetica, sans-serif;
+    --subtitle-font: 'Rubik', Tahoma, Geneva, sans-serif;
+    --red-color: #c3002f;
+    --white-text-color: rgba(255, 255, 255, .85);
+    --bg-color: #555C63;
+    --bg-white-color: #f8f8f8;
+    --title-color: #222d35;
+}
+
+body {
+    font-family: var(--title-font);
+}
+
+.main {
+    padding: 0 100px;
+}
+
+@media (max-width: 1300px) {
+    .main {
+        padding: 0 20px;
+    }
+}
+
+.subtitle {
+    color: var(--red-color);
+    font-weight: 500;
+    font-size: 95%;
+}
+
+.title {
+    font-size: 250%;
+    font-weight: 400;
+    color: var(--title-color);
+}
+
+.title-span {
+    font-weight: 600;
+    color: var(--title-color);
+}
+
+.paragraph {
+    color: var(--bg-color);
+    letter-spacing: 0.2px;
+    line-height: 1.8;
+    font-size: 95%;
+}
+
+.button {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 13px 30px;
+    border: 1px solid var(--red-color);
+    background-color: var(--red-color);
+    color: #fff;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--title-color);
+    border: 1px solid var(--title-color);
+}
+
+@media (max-width: 768px) {
+    .subtitle {
+        font-size: 80%;
+    }
+    .title {
+        font-size: 160%;
+    }
+    .paragraph {
+        font-size: 85%;
+    }
+    .button {
+        font-size: 70%;
+    }
+}

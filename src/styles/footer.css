@@ -1,0 +1,228 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--title-color);
+}
+
+.footer-header {
+   border-bottom: 1px solid #ffffff2b;
+}
+
+.footer-header__section {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 50px 0;
+    gap: 40px;
+}
+
+.footer-header__section img {
+    width: 170px;
+}
+
+.footer-header__section div {
+    width: 1px;
+    height: 60px;
+    background-color: #ffffff2b;
+    border-radius: 5px;
+}
+
+.footer-header__section p {
+    color: var(--white-text-color);
+    max-width: 700px;
+    letter-spacing: 0.2px;
+    line-height: 1.8;
+    font-size: 95%;
+}
+
+.footer-blok {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff2b;
+    gap: 20px;
+}
+
+.footer-blok__section {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-blok__section-a {
+    margin-bottom: 7px;
+    color: var(--white-text-color);
+    transition: .5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-blok__section-a:hover {
+    opacity: .7;
+}
+
+.footer-blok__section__h2-1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 140%;
+}
+
+.footer-blok__section__h2-2 {
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.footer-blok__section__h2-2 a {
+    text-decoration: none;
+    color: var(--red-color);
+    transition: .5s;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.footer-blok__section__h2-2 a:hover {
+    opacity: .7;
+}
+
+.footer-blok__section-line {
+    margin-top: 8px;
+    width: 20px;
+    height: 2px;
+    background-color: var(--red-color);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.footer-blok__section p {
+    margin-bottom: 20px;
+    letter-spacing: 0.2px;
+    line-height: 1.8;
+    font-size: 95%;
+    color: var(--white-text-color);
+    max-width: 300px;
+}
+
+.footer-blok__section a {
+    text-decoration: none;
+}
+
+.footer-blok__section a button {
+    font-size: 90%;
+    padding: 18px 30px;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    font-weight: 600;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.footer-blok__section a button:hover {
+    background-color: #fff;
+    border-color: var(--title-color);
+    color: var(--title-color);
+}
+
+.footer-blok__section__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-blok__section__container-part {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+.footer-blok__section__container-part__icon {
+    color: var(--red-color);
+}
+
+.footer-blok__section__container-part p {
+    margin-bottom: 0;
+}
+
+.footer-blok__section__container-part a {
+    color: var(--white-text-color);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.footer-blok__section__container-part a:hover {
+    opacity: .7;
+}
+
+.footer-footer {
+    padding: 50px 0 20px 0;
+}
+
+.footer-footer p {
+    text-align: center;
+    color: var(--white-text-color);
+    line-height: 1.5;
+}
+
+.footer-footer p a {
+    text-decoration: none;
+    color: var(--red-color);
+    font-weight: 500;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.footer-footer p a:hover {
+    opacity: .7;
+}
+
+@media (max-width: 768px) {
+    .footer-header__section {
+        padding: 40px 0;
+        gap: 20px;
+    }
+    .footer-header__section img {
+        width: 100px;
+    }
+    .footer-header__section div {
+        height: 50px;
+    }
+    .footer-header__section p {
+        font-size: 70%;
+    }
+
+    .footer-blok {
+        padding: 40px 0;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .footer-blok__section-a {
+        margin-bottom: 3px;
+        font-size: 85%;
+    }
+    .footer-blok__section__h2-1 {
+        font-size: 130%;
+    }
+    .footer-blok__section__h2-2 {
+        font-size: 100%;
+    }
+    .footer-blok__section p {
+        font-size: 85%;
+    }
+    .footer-blok__section a button {
+        font-size: 80%;
+        padding: 15px 25px;
+    }
+    .footer-blok__section__container-part p {
+        font-size: 85%;
+    }
+    .footer-blok__section__container-part a {
+        font-size: 85%;
+    }
+
+    .footer-footer {
+        padding: 40px 0 20px 0;
+    }
+    .footer-footer p {
+        font-size: 80%;
+    }
+}
