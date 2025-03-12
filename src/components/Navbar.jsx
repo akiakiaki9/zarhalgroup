@@ -14,7 +14,7 @@ export default function Navbar() {
                         <Link to='/contacts' style={{ color: activePage === '/contacts' ? "var(--red-color)" : "" }}>Contacts</Link>
                     </div>
                     <div className="navbar-blok__section">
-                        <Link to='/store' style={{ color: activePage === '/store' ? "var(--red-color)" : "" }}><button>Store</button></Link>
+                        <Link to='/login' style={{ color: activePage === '/login' ? "var(--red-color)" : "" }}><button>Login</button></Link>
                     </div>
                 </div>
             </div>

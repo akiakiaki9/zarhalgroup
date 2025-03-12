@@ -24,7 +24,8 @@
 .pagename-blok div h1 {
     color: #fff;
     font-weight: 600;
-    font-size: 250%;
+    font-size: 270%;
+    font-family: var(--indian-font);
 }
 
 .pagename-blok div a {

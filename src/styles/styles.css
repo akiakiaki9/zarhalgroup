@@ -71,6 +71,11 @@ body {
     border: 1px solid var(--title-color);
 }
 
+.error-message {
+    text-align: center;
+    color: var(--red-color);
+}
+
 @media (max-width: 768px) {
     .subtitle {
         font-size: 80%;

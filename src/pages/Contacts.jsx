@@ -19,7 +19,7 @@ export default function Contacts() {
                         <h1>Contact Us</h1>
                     </div>
                     <div>
-                        <Link href='/'><p className='pagename-blok__p-1'>Home</p></Link>
+                        <Link to='/'><p className='pagename-blok__p-1'>Home</p></Link>
                         <GoDotFill className='pagename-icon' />
                         <p className='pagename-blok__p-2'>Contact Us</p>
                     </div>
